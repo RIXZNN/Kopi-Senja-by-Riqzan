@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 3000px;
+  min-height: 5000px;
 }
 
 /* Navbar */
@@ -145,11 +145,13 @@ body {
 }
 
 /*Abour Section*/
-.about, .menu {
+.about, .menu, .contact {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2,
+.menu h2,
+.contact {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
@@ -162,7 +164,8 @@ body {
 }
 
 .about h2 span,
-.menu h2 span{
+.menu h2 span,
+.contact h2 span {
     color: var(--primary);
 }
 
@@ -196,10 +199,11 @@ body {
 }
 
 /*Menu Section*/
-.menu h2{
+.menu h2,
+.contact h2{
   margin-bottom: 1rem;
 }
-.menu p{
+.menu p, .contact p{
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -228,6 +232,21 @@ body {
   margin: 1rem auto 0.5rem;
 }
 
+/*Contact Section */
+
+.contact .row{
+  display: flex;
+  margin-top: 2rem;
+  background-color: #222;
+  flex-wrap: wrap;
+}
+
+.contact .row .map{
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+  
+}
 
 /* Media Queris */
 
